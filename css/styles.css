@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Questrial');
+
+*, p {
+	margin: 0;
+	padding: 0;
+}
+
+
+.logo {
+    width: 70%;
+}
+
+
+
+
+h1 {
+	font-family: 'Anton', sans-serif;
+	padding: 95px;
+	font-size: 5rem;
+}
+
+.nav-link {
+	font-family: 'Anton', sans-serif;
+	color: black;
+}
+
+.nav-link:hover {
+	color: red;
+	padding: 5px;
+	background-color: white;
+}
+
+h3 {
+	font-family: 'Questrial', sans-serif;
+	padding: 5px;
+}
+
+p {
+	font-family: 'Questrial', sans-serif;
+	padding: 5px;
+}
+
+.logo img {
+	width: 100%;
+	padding: 7px;
+    padding-top: 45px;
+}
+
+body {
+/*	background-image: url("../img/bg.png");*/
+	background-repeat: repeat-y;
+	background-position: center center;
+}
+
+.xuy p {
+	background-color: #f8f9fa;
+	width: 100%;
+	height: 50px; 
+	line-height: 50px;
+	text-align: center;
+	font-size: 2rem;
+
+}
+
+.xuy {
+	position: fixed;
+	z-index: 20;
+	width: 100%;
+}
+
+.carousel-jumbo {
+	top: 10%;
+	z-index: 10;
+	height: 16%;
+	width: 100%;
+	color: white;
+	padding:20px;
+}
+
+.carousel-jumbo p {
+	display: inline-block;
+	width: 100%;	
+}
+
+.carousel-jumbo h1 {
+	font-size: 5rem;
+
+}
+
+.carousel-control-next {
+	z-index: 11;
+}
+.mynav {
+	background-color: transparent;
+}
+
+
+.img1 {
+	background-image: url("../img/carousel1.png");
+	background-position: bottom left;
+	
+	background-repeat: no-repeat;
+	height: 100vh;
+	background-size: cover;
+}
+.img2 {
+	background-image: url("../img/carousel2.png");
+	background-position: top right;
+	
+	background-repeat: no-repeat;
+	height: 100vh;
+	background-size: cover;
+}
+
+.img3 {
+	background-image: url("../img/carousel3.png");
+	;
+	background-repeat: no-repeat;
+	background-position:  top right;
+	height: 100vh;
+	background-size: cover;
+}
+
+.video-box {
+	width: auto;
+	height: 450px;
+	margin:0 auto;
+}
+
+
+.cop {
+	width: 100%;
+}
+
+.smicons {
+	font-size: 3rem;
+	padding: 5px;
+}
+
+.fab, .fa-facebook-square {
+	padding: 10px;
+	color: black;
+}
+
+.fab, .fa-instagram {
+	padding: 10px;
+}
+
+.fab, .fa-twitter {
+	padding: 10px;
+}
+
+
+.img-hover {
+	filter: grayscale(70%) brightness(50%);
+	transition: 0.5s ease;
+	box-shadow: 0px 2px 20px rgba(0,0,0,0.6);
+	border:5px solid rgba(255,255,255, 0.3);
+}
+
+.img-hover:hover {
+	filter: grayscale(0%) brightness(100%);
+	transform: translateY(-10px);
+	box-shadow: 0px 2px 60px rgba(0,0,0,0.6);
+	
+}
+
+.glass {
+	box-shadow: 0px 2px 60px rgba(0,0,0,0.6);
+	border-radius: 50%;
+
+}
+.glass:hover {
+	border-radius: 30px;
+}
+.space-evenly {
+	justify-content: space-evenly;
+}
+
+footer {
+	margin-top: 120px;
+}
+
+.target, .energy {
+	padding: 5px;
+	background-color: white;
+}
+
+@media screen  and (max-width: 560px) {
+	.video-box {
+		width: 100%;
+		height: 100%;
+	}
+	
+}
+
+@media screen  and (max-width: 576px) {
+
+	.mynav {
+		background-color: #f8f9fa;
+	}
+
+	.logo {
+		width: 100%;
+	}
+	
+}
+
+.footergt {
+	color: red;
+	font-family: 'Anton', sans-serif;
+}
+
+.nav-linklg {
+	padding: 5px;
+	background-color: white;
+	color: red;
+	font-family: 'Anton', sans-serif;
+}
+
+.nav-linklg:hover {
+	padding: 5px;
+	background-color: black;
+	color: white;
+	font-family: 'Anton', sans-serif;
+}
+
